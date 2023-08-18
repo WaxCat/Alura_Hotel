@@ -86,6 +86,7 @@ public class Login extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				MenuPrincipal cerrar = new MenuPrincipal();
 				cerrar.closeApp();
+				
 			}
 			@Override
 			public void mouseEntered(MouseEvent e) {

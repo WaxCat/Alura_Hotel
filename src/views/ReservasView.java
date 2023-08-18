@@ -264,11 +264,7 @@ public class ReservasView extends JFrame {
 			
 			public void propertyChange(PropertyChangeEvent evt) {
 				//Activa el evento, después del usuario seleccionar las fechas se debe calcular el valor de la reserva
-				System.out.println("fechaentrada" + txtFechaEntrada.getDate());
-				
-				
-				Date fecha = txtFechaSalida.getDate();		
-				
+				System.out.println("fechaentrada" + txtFechaEntrada.getDate());				
 				System.out.println("fechasalida  " + fecha );
 			}
 			

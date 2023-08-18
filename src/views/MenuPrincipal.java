@@ -177,9 +177,7 @@ public class MenuPrincipal extends JFrame {
         this.setLocation(x - xMouse, y - yMouse);
     }
     
-    public void closeApp() {
-    	
-    	
+    public void closeApp() {  	
     	ImageIcon icon = new ImageIcon(MenuPrincipal.class.getResource("/imagenes/aH-40px.png"));
 		
 		int select = JOptionPane.showConfirmDialog(null, "¿Realmente desea salir de la aplicación?",

@@ -159,7 +159,8 @@ public class MenuUsuario extends JFrame {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				MenuPrincipal cerrar = new MenuPrincipal();
-				cerrar.closeApp();			
+				cerrar.closeApp();
+				
 			}
 			@Override
 			public void mouseEntered(MouseEvent e) {
